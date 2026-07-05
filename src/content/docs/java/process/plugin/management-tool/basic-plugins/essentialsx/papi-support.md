@@ -4,7 +4,7 @@ title: papi 支持
 
 :::note
 
-`官方文档` https://wiki.placeholderapi.com/users/placeholder-list/#essentials
+`官方文档` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#essentials
 
 `插件百科 (严重过期)` https://mineplugin.org/PlaceholderAPI(%E6%97%A7)
 

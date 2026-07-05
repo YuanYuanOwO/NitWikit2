@@ -28,8 +28,7 @@ title: 常见问题
 
 你需要安装 [Vault](/java/process/plugin/plugin-dependencies/vault/intro) 插件和 [经济插件](/java/process/plugin/plugin-dependencies/xconomy)
 
-接着，确保你安装了 [PlaceHolderAPI](/java/process/plugin/plugin-dependencies/placeholderapi
-/intro) 插件，执行下方命令
+接着，确保你安装了 [PlaceHolderAPI](/java/process/plugin/plugin-dependencies/placeholderapi/intro) 插件，执行下方命令
 
 ```bash
 /papi ecloud download Vault
@@ -42,7 +41,7 @@ title: 常见问题
 
 如果下载失败，看 [手动安装](#手动安装)
 
-如果你想知道都有哪些扩展，提供了哪些变量，查看 [此处](https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list.html)
+如果你想知道都有哪些扩展，提供了哪些变量，查看 [此处](https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list.html)
 
 ## 什么是内建变量？
 
@@ -80,7 +79,7 @@ boolean:
 
 `eCloud` :https://api.extendedclip.com/all/
 
-`Placeholder List` :https://wiki.placeholderapi.com/users/placeholder-list/
+`Placeholder List` :https://wiki.placeholderapi.com/users/placeholder-list/minecraft/
 
 :::
 

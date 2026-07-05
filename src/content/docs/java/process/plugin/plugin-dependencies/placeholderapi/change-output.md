@@ -6,11 +6,11 @@ title: ChangeOutput
 
 `eCloud` https://api.extendedclip.com/expansions/changeoutput
 
-`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#changeoutput
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#changeoutput
 
 `GitHub` https://wiki.placeholderapi.com/users/placeholder-list/#changeoutput
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#changeoutput
+`Continue-Project` https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#changeoutput
 
 :::
 

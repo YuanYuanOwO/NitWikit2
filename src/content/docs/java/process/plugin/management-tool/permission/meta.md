@@ -122,7 +122,7 @@ title: 数据存储
 
 值得一提的是，如果命令中最后没有加 **accumulate** ，他会把权限时间重置到你给的数字而不是累加时间
 
-下表来自：[此处](https://continue-project.netlify.app/LuckPerms/command-usage.permission#lp-user-group-%E7%8E%A9%E5%AE%B6-%E6%9D%83%E9%99%90%E7%BB%84-permission-settemp-%E6%9D%83%E9%99%90-true-false-%E6%97%B6%E9%97%B4-%E6%96%BD%E5%8A%A0%E6%A8%A1%E5%BC%8F-%E6%83%85%E5%A2%83)
+下表来自：[此处](https://continue-project.netlify.app/wiki/LuckPerms/command-usage/permission#lp-user-group-%E7%8E%A9%E5%AE%B6-%E6%9D%83%E9%99%90%E7%BB%84-permission-settemp-%E6%9D%83%E9%99%90-true-false-%E6%97%B6%E9%97%B4-%E6%96%BD%E5%8A%A0%E6%A8%A1%E5%BC%8F-%E6%83%85%E5%A2%83)
 
 | 模式关键词 | 描述                                         |
 | ---------- | -------------------------------------------- |

@@ -12,7 +12,7 @@ title: PlayerPoints
 
 `文档 (英文)` https://github.com/Rosewood-Development/PlayerPoints/wiki
 
-`文档 (中文)` https://continue-project.netlify.app/PlayerPoints/README.html
+`文档 (中文)` https://continue-project.netlify.app/wiki/PlayerPoints
 
 `插件百科` https://mineplugin.org/PlayerPoints
 

@@ -248,11 +248,13 @@ import { Steps } from "@astrojs/starlight/components";
 | [Odyssey](https://theodyssey.dev/)          | 13.0~13.7              | A9~A13        |
 | [Unc0ver](https://unc0ver.dev/)             | 11.0~14.8              | A9~A14        |
 | [Taurine](https://taurine.app/)             | 14.0~14.8.1            | A9~A12        |
-| [Dopamine](https://ellekit.space/dopamine/) | 15.0~16.6.1\*          | A12~A16,M1,M2 |
+| [Dopamine](https://ellekit.space/dopamine/) | 15.0~16.7.15\*         | A12~A16,M1,M2 |
 | [Checkra1n](https://checkra.in/)            | 12.0~15.4.1            | A7~A11        |
 | [Palera1n](https://palera.in/)              | 15.0~?                 | A7~A11        |
 
-\*Dopamine 到 iOS 16.6 - 16.6.1 不支持 A12 及更新版本的设备，iOS 16.5.1 - 16.6.1 不支持 A15-A16/M2 版本的设备。
+\*Dopamine 到 iOS 16.6 - 16.6.1 不支持 A12 及更新版本的设备，iOS 16.5.1 - 16.7 不支持 A15-A16/M2 版本的设备。
+
+使用 DarkSword 漏洞 15.8.7 在 A9 - A10 设备上可以使用 Dopamine，16.7 - 16.7.15 arm64 设备可以使用 Dopamine，目前 A8（X）设备不支持，在 A9X 设备上可能无法工作，不要在 16.0 – 16.3.1 使用这个漏洞。
 
 除了 Palera1n 和 Checkra1n 需要使用 U 盘或者 Linux 或者 macOS，其他基本上就是像 Dopamine 那样的安装方法。
 
@@ -302,21 +304,21 @@ import { Steps } from "@astrojs/starlight/components";
 
 1. 使用下面的命令进行安装
 
-   ```bash
-   curl -fsSL https://static.palera.in/scripts/install.sh | sudo bash"
-   ```
+    ```bash
+    curl -fsSL https://static.palera.in/scripts/install.sh | sudo bash"
+    ```
 
 2. 使用下面的命令来使用 palera1n
-   ```bash
-   # Linux
-   sudo systemctl stop usbmuxd
-   sudo usbmuxd -f -p
-   # 将你的苹果设备连接到电脑，并且你需要使设备进入 DFU 模式（屏幕上会有英文提示）
-   sudo palera1n -l
-   # macOS
-   # 将你的苹果设备连接到电脑，并且你需要使设备进入 DFU 模式（屏幕上会有英文提示）
-   palera1n -l
-   ```
+    ```bash
+    # Linux
+    sudo systemctl stop usbmuxd
+    sudo usbmuxd -f -p
+    # 将你的苹果设备连接到电脑，并且你需要使设备进入 DFU 模式（屏幕上会有英文提示）
+    sudo palera1n -l
+    # macOS
+    # 将你的苹果设备连接到电脑，并且你需要使设备进入 DFU 模式（屏幕上会有英文提示）
+    palera1n -l
+    ```
 
 </Steps>
 
@@ -332,15 +334,15 @@ import { Steps } from "@astrojs/starlight/components";
 
 <Steps>
 
-1. 你需要查看 [**安装 TrollStore**](https://nitwikit.8aka.cn/java/process/mobile-player/client/amethyst-ios/#%E5%AE%89%E8%A3%85-trollstore) 第一个方法 1~11 步，将 Dopamine 安装到你的手机上
+1. 你需要查看 [**安装 TrollStore**](#安装-trollstore) 第一个方法 1~11 步，将 Dopamine 安装到你的手机上
 
 2. 打开 Dopamine，点击越狱按钮，选择包管理器为 Sideo，设置 root 密码
 
-   ![](../_assets/amethyst-ios/Dopamine_1.png)
+    ![](../_assets/amethyst-ios/Dopamine_1.png)
 
-   ![](../_assets/amethyst-ios/Dopamine_2.png)
+    ![](../_assets/amethyst-ios/Dopamine_2.png)
 
-   ![](../_assets/amethyst-ios/Dopamine_3.png)
+    ![](../_assets/amethyst-ios/Dopamine_3.png)
 
 3. 下载 Amethyst 最新的 [ipa 安装包](https://github.com/AngelAuraMC/Amethyst-iOS/actions)。**（需要使用 GitHub 账号才能继续下载）**
 

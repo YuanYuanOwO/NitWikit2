@@ -25,17 +25,19 @@
         "vue": "^3.5.27"
     },
     "devDependencies": {
-        "astro-vtbot": "^2.1.10",
         "@vite-pwa/astro": "^1.2.0",
+        "astro-vtbot": "^2.1.10",
         "daisyui": "^5.5.17",
+        "oxfmt": "^0.35.0",
         "starlight-contributor-list": "^0.3.2",
         "starlight-links-validator": "^0.19.2",
         "starlight-scroll-to-top": "^0.4.0",
         "tailwindcss": "^4.1.18",
-        "typescript": "^5.9.3"
+        "typescript": "^5.9.3",
+        "workbox-window": "^7.4.0"
     },
     "engines": {
         "node": ">=18.0"
     },
-    "packageManager": "pnpm@10.27.0+sha512.72d699da16b1179c14ba9e64dc71c9a40988cbdc65c264cb0e489db7de917f20dcf4d64d8723625f2969ba52d4b7e2a1170682d9ac2a5dcaeaab732b7e16f04a"
+    "packageManager": "pnpm@10.32.1"
 }

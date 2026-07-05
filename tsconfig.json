@@ -1,10 +1,14 @@
 {
     "extends": "astro/tsconfigs/strict",
-    "include": [".astro/types.d.ts", "**/*"],
-    "exclude": ["dist"],
     "compilerOptions": {
         "resolveJsonModule": true,
-        "jsx": "preserve"
+        "jsx": "preserve",
+        "jsxImportSource": "astro",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@layouts/*": ["./src/layouts/*"]
+        }
     },
     "mdx": {
         "checkMdx": true

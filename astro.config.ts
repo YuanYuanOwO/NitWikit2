@@ -14,7 +14,7 @@ import vue from "@astrojs/vue";
 const IS_CHINA_SITE = process.env.CHINA === "true";
 
 export default defineConfig({
-    site: IS_CHINA_SITE ? "https://nitwikit.8aka.cn" : "https://nitwikit.8aka.org",
+    //site: IS_CHINA_SITE ? "https://nitwikit.8aka.cn" : "https://nitwikit.8aka.org", // 等 cn 镜像站修好了再启用
     outDir: "./build",
     integrations: [
         vue(),
@@ -305,7 +305,8 @@ export default defineConfig({
                                                                 "java/process/plugin/management-tool/chat/intro",
                                                                 "java/process/plugin/management-tool/chat/carbon",
                                                                 "java/process/plugin/management-tool/chat/huskchat",
-                                                                "java/process/plugin/management-tool/chat/trchat"
+                                                                "java/process/plugin/management-tool/chat/trchat",
+                                                                "java/process/plugin/management-tool/chat/interactivechat"
                                                             ]
                                                         },
                                                         {
@@ -701,7 +702,7 @@ export default defineConfig({
                                                         "java/advance/optimize/jvm/common",
                                                         "java/advance/optimize/jvm/dragonwell8",
                                                         "java/advance/optimize/jvm/dragonwell11",
-                                                        "java/advance/optimize/jvm/openj9",
+                                                        "java/advance/optimize/jvm/semeru",
                                                         "java/advance/optimize/jvm/graal",
                                                         "java/advance/optimize/jvm/zing"
                                                     ]
@@ -1078,26 +1079,22 @@ export default defineConfig({
         }),
         AstroPWA({
             registerType: "autoUpdate",
-
+            workbox: {
+                skipWaiting: true,
+                clientsClaim: true,
+                navigateFallback: "/404",
+                ignoreURLParametersMatching: [/./],
+                globPatterns: ["**/*.{html,js,css,png,svg,json,ttf,pf_fragment,pf_index,pf_meta,pagefind,wasm}"]
+            },
+            experimental: {
+                directoryAndTrailingSlashHandler: true
+            },
             manifest: {
                 name: "Cubic Wiki",
                 short_name: "Cubic Wiki",
-                theme_color: "#2196f3",
-                background_color: "#424242",
                 display: "standalone",
-                start_url: "/",
-                icons: [
-                    {
-                        src: "/icons/book-192.png",
-                        sizes: "192x192",
-                        type: "image/png"
-                    },
-                    {
-                        src: "/icons/book-512.png",
-                        sizes: "512x512",
-                        type: "image/png"
-                    }
-                ]
+                theme_color: "#2196f3",
+                background_color: "#424242"
             }
         }),
         mermaid({
@@ -1107,7 +1104,7 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
         ssr: {
-            noExternal: ["naive-ui", "vueuc", "date-fns"]
+            noExternal: ["naive-ui", "vueuc", "date-fns", "workbox-window"]
         }
     }
 });

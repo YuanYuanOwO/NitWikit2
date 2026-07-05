@@ -6,11 +6,11 @@ title: ParseOther
 
 `eCloud` https://api.extendedclip.com/expansions/parseother
 
-`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#parseother
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#parseother
 
 `GitHub` https://github.com/PlaceholderAPI/ParseOther
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#parseother
+`Continue-Project` https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#parseother
 
 :::
 

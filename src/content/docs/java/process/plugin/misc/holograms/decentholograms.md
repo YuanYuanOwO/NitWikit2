@@ -74,7 +74,7 @@ title: DecentHolograms
 
 `文档 (英文)` https://wiki.decentholograms.eu
 
-`文档 (中文)` https://continue-project.netlify.app/DecentHolograms
+`文档 (中文)` https://continue-project.netlify.app/wiki/DecentHolograms
 
 :::
 

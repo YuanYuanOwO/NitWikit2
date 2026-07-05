@@ -6,11 +6,11 @@ title: Math
 
 `eCloud` https://api.extendedclip.com/expansions/math
 
-`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#math
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#math
 
 `GitHub` https://github.com/Andre601/Math-Expansion
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#math
+`Continue-Project` https://continue-project.netlify.app/wikiPlaceholderAPI/user-guides/placeholder-list#math
 
 :::
 
@@ -70,7 +70,7 @@ math:
 
 使用 `{}` 代替变量的 `%`
 
-比如 [Server 扩展](https://wiki.placeholderapi.com/users/placeholder-list/#server) 的 `%server_online%` 显示当前服务器在线玩家数
+比如 [Server 扩展](https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#server) 的 `%server_online%` 显示当前服务器在线玩家数
 
 ![](_assets/Math/4.png)
 

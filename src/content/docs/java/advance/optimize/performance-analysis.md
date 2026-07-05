@@ -20,7 +20,7 @@ Spark 是一个 Minecraft 的性能分析器，支持广泛 (如 Bukkit，Bungee
 
 `文档 (英文)` https://spark.lucko.me/docs
 
-`文档 (中文)` https://continue-project.netlify.app/spark
+`文档 (中文)` https://continue-project.netlify.app/wiki/spark
 
 :::
 
@@ -54,7 +54,7 @@ Spark 是一个 Minecraft 的性能分析器，支持广泛 (如 Bukkit，Bungee
 
 `/spark profiler info` 检查当前分析的状态。
 
-这是主要的指令，为了更多的功能，更精准的分析等可以在后面加上参数。具体请查看 [profiler 指令使用方法](https://continue-project.netlify.app/spark/#/spark.command-usage)
+这是主要的指令，为了更多的功能，更精准的分析等可以在后面加上参数。具体请查看 [profiler 指令使用方法](https://continue-project.netlify.app/wiki/spark/#/spark.command-usage)
 
 :::tip
 

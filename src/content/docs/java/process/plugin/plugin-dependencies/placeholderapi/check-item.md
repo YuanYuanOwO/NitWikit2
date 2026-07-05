@@ -14,11 +14,11 @@ title: CheckItem
 
 `eCloud` https://api.extendedclip.com/expansions/checkitem
 
-`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#checkitem
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#checkitem
 
 `GitHub` https://github.com/PlaceholderAPI/CheckItem-Expansion
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#checkitem
+`Continue-Project` https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#checkitem
 
 :::
 
@@ -82,7 +82,7 @@ title: CheckItem
 
 ### 修饰符
 
-> https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#checkitem
+> https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#checkitem
 
 可用的修饰符有：
 

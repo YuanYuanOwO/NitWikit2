@@ -6,11 +6,11 @@ title: Progress
 
 `eCloud` https://api.extendedclip.com/expansions/progress
 
-`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#progress
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#progress
 
 `GitHub` https://github.com/aBooDyy/Progress-Expansion
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#progress
+`Continue-Project` https://continue-project.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#progress
 
 :::
 

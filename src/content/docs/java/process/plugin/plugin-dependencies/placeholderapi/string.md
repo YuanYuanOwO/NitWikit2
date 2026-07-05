@@ -6,11 +6,11 @@ title: String
 
 `eCloud` https://api.extendedclip.com/expansions/string
 
-`变量列表` https://wiki.placeholderapi.com/users/placeholder-list/#string
+`变量列表` https://wiki.placeholderapi.com/users/placeholder-list/minecraft/#string
 
 `GitHub` https://github.com/BlitzOffline/StringExpansion
 
-`Continue-Project` https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list#string
+`Continue-Project` https://c.netlify.app/wiki/PlaceholderAPI/user-guides/placeholder-list#string
 
 :::
 
